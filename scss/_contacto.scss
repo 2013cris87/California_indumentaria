@@ -1,0 +1,18 @@
+$letraweb: 'Amatic SC', cursive;   /* variable fuente */
+
+.contacto {
+    color: black;
+    font-weight: bold;
+    font-size: 6rem;
+    text-align: center;
+    font-family: $letraweb;
+}
+.formulario {
+    margin: 15rem;
+    background-image: linear-gradient(to left, white, rgb(148, 239, 255));
+    color:black;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: $letraweb;
+}

@@ -1,0 +1,50 @@
+$letraweb: 'Amatic SC', cursive;   /* variable fuente */
+
+body .web {
+    .web__contenido {
+        .web__contenido__carousel {
+            display: flex;
+            align-items: center;
+            padding: 3rem 3rem;
+            background-color: transparent;
+        }
+        .web__contenido__texto {
+            .web__contenido__texto__box {
+                .web__contenido__texto__box__titulo {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 7rem;
+                    font-size: bold;
+                    color: black;
+                    font-family: $letraweb;
+                }
+                .web__contenido__texto__box__parrafo {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    font-size: 4rem;
+                    font-family: $letraweb;
+                }
+            }
+        }
+    }
+}
+
+
+.texto__pie {
+    .texto__pie__div {
+        .texto__pie__div__section {
+            .texto__pie__div__section__h2 {
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: end;
+                    width: 100%;
+                    font-size: 3rem;
+                    font-family: $letraweb;  
+                }
+            }
+        }
+    }
+}

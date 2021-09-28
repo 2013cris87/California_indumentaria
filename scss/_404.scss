@@ -1,0 +1,32 @@
+$letraweb: 'Amatic SC', cursive;   /* variable fuente */
+
+.error__404 {
+    display: flex;
+    justify-content: center;
+    div {
+        div {
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-family: $letraweb;
+                font-size: 7rem;
+                font-weight: bold;
+            }
+            p {
+                display: flex;
+                justify-content: center;
+                font-family: $letraweb;
+                font-size: 5rem;
+                text-align: center;
+            }
+        }
+    }
+    div {
+        img {
+            display: flex;
+            flex-direction: center;
+            margin: 2rem;
+            padding: 2rem;
+        }
+    }
+}
