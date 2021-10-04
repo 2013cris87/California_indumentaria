@@ -2,16 +2,14 @@ $letraweb: 'Amatic SC', cursive;   /* variable fuente */
 
 
 
-.seccionMujer {
-    margin: 1rem;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    .tituloMujer {
-        font-size: 6rem;
-        margin: 3rem;
-        text-align: center;
-        font-family: $letraweb;
+.seccion__mujer {
+    div{
+        .titulo__mujer{
+            font-size: 6rem;
+            margin: 3rem;
+            text-align: center;
+            font-family: $letraweb;
+        }
     }
     .fondoImagenes {
         display: grid;
@@ -22,81 +20,34 @@ $letraweb: 'Amatic SC', cursive;   /* variable fuente */
         grid-template-columns: repeat(4, fr);
         grid-template-rows: 1fr 1fr;
     }
-    .tablaTalle {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 5rem;
-        font-family: $letraweb;
-        
-        .tituloTabla {
-            font-size: 5rem;
-            font-weight: bold;
-            text-align: center;
+    .remera__mujer {
+        margin: 15rem;
+        padding: 15rem;
+    }
+}
+
+div{
+    div{
+        .tablaTalle {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 5rem;
+            padding: 5rem;
             font-family: $letraweb;
-        }
-        table {
-            tr {
+            
+            .tituloTabla {
                 font-size: 5rem;
-                background-image: linear-gradient(to left, white, rgb(148, 239, 255));
+                font-weight: bold;
+                text-align: center;
+                font-family: $letraweb;
+            }
+            table {
+                tr {
+                    font-size: 5rem;
+                    background-image: linear-gradient(to left, white, rgb(148, 239, 255));
+                }
             }
         }
     }
 }
-
-
-.fotoM1 {
-    grid-area: fotoM1;
-    transition: width 3s;
-    transition: height 3s;
-}
-
-.fotoM2 {
-    grid-area: fotoM3;
-    transition: width 3s;
-    transition: height 3s;
-}
-
-.fotoM3 {
-    grid-area: fotoM4;
-    transition: width 3s;
-    transition: height 3s;
-}
-
-.fotoM4 {
-    grid-area: fotoM5;
-    transition: width 3s;
-    transition: height 3s;
-}
-
-.fotoM5 {
-    grid-area: fotoM6;
-    transition: width 3s;
-    transition: height 3s;
-}
-
-.fotoM1:hover {
-    width: 550px;
-    height: 420px;
-}
-
-.fotoM2:hover {
-    width: 550px;
-    height: 460px;
-}
-
-.fotoM3:hover {
-    width: 550px;
-    height: 650px;
-}
-
-.fotoM4:hover {
-    width: 550px;
-    height: 420px;
-}
-
-.fotoM5:hover {
-    width: 550px;
-    height: 420px;
-}
-
