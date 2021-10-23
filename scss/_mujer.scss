@@ -1,28 +1,37 @@
 $letraweb: 'Amatic SC', cursive;   /* variable fuente */
 
-
-
-.seccion__mujer {
-    div{
-        .titulo__mujer{
-            font-size: 6rem;
-            margin: 3rem;
-            text-align: center;
-            font-family: $letraweb;
+body {
+    .carousel__mujer {
+        div {
+            .carousel__remeras {
+                h2 {
+                    color: black;
+                    font-family: $letraweb;
+                    font-size: 6rem;
+                    text-align: center;
+                }
+            }
+            .carousel__remerones {
+                h2 {
+                    color: black;
+                    font-family: $letraweb;
+                    font-size: 6rem;
+                    text-align: center;
+                }
+            }
         }
     }
-    .fondoImagenes {
-        display: grid;
-        grid-column-gap: 1rem;
-        grid-row-gap: 1rem;
-        grid-template-areas:"fotoM1 fotoM1 fotoM3 fotoM4"
-                            "fotoM5 fotoM6 fotoM6 fotoM4";
-        grid-template-columns: repeat(4, fr);
-        grid-template-rows: 1fr 1fr;
-    }
-    .remera__mujer {
-        margin: 15rem;
-        padding: 15rem;
+    .carousel__jean {
+        div {
+            .carousel__foto__jean {
+                h2 {
+                    color: black;
+                    font-family: $letraweb;
+                    font-size: 6rem;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
 

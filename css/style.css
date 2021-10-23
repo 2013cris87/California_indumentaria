@@ -130,28 +130,25 @@ body .web .web__contenido .web__contenido__texto .web__contenido__texto__box .we
 }
 
 /* variable fuente */
-.seccion__mujer div .titulo__mujer {
-  font-size: 6rem;
-  margin: 3rem;
-  text-align: center;
+body .carousel__mujer div .carousel__remeras h2 {
+  color: black;
   font-family: "Amatic SC", cursive;
+  font-size: 6rem;
+  text-align: center;
 }
 
-.seccion__mujer .fondoImagenes {
-  display: -ms-grid;
-  display: grid;
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-      grid-template-areas: "fotoM1 fotoM1 fotoM3 fotoM4" "fotoM5 fotoM6 fotoM6 fotoM4";
-  -ms-grid-columns: (fr)[4];
-      grid-template-columns: repeat(4, fr);
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+body .carousel__mujer div .carousel__remerones h2 {
+  color: black;
+  font-family: "Amatic SC", cursive;
+  font-size: 6rem;
+  text-align: center;
 }
 
-.seccion__mujer .remera__mujer {
-  margin: 15rem;
-  padding: 15rem;
+body .carousel__jean div .carousel__foto__jean h2 {
+  color: black;
+  font-family: "Amatic SC", cursive;
+  font-size: 6rem;
+  text-align: center;
 }
 
 div div .tablaTalle {
@@ -436,8 +433,6 @@ div div .tablaTalle table tr {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 html {
