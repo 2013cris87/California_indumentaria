@@ -22,6 +22,14 @@ body .header .header__navegacion div div {
   padding: 2rem;
 }
 
+body .header .header__navegacion div div .header__barra__navegacion div ul li a {
+  color: black;
+}
+
+body .header .header__navegacion div div .header__barra__navegacion div ul li :hover {
+  color: red;
+}
+
 body footer {
   display: -webkit-box;
   display: -ms-flexbox;
