@@ -1,0 +1,27 @@
+$letraweb: 'Amatic SC', cursive;   /* variable fuente */
+
+body {
+    .punto__entrega {
+        h1 {
+            color: black;
+            font-family: $letraweb;
+            font-size: 6rem;
+            text-align: center;
+        }
+    }
+    .retiro {
+        .mapa__retiro {
+            div  {
+                h2{
+                    color: black;
+                    font-family: $letraweb;
+                    font-size: 4rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+

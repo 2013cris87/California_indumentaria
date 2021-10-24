@@ -54,61 +54,37 @@
         </nav>
     </header>
 
-    <section>
-
-        <h1 data-aos="fade-left" data-aos-duration="3000"  class="contacto">Contacto</h1>
-    
-            <form class="formulario">
-    
-                <label for="sexo">Mujer</label>
-                <input type="radio" name="sexo" value="mujer" >
-    
-                <label for="sexo">Hombre</label>
-                <input type="radio" name="sexo" value="hombre" >
-    
-                <div>
-                    <label for="nombre">Nombre*:</label>
-                    <input required name="nombre" id="nombre" type="text" placeholder="Ej: Cristian">
+    <div class=" formulario container">
+        <div class="formulario__1 row">
+            <form class=" texto__formulario col-xl-6 col-md-12 col-xs-12" > 
+                <div class="form-outline mb-4">
+                    <input type="text" id="form4Example1" class="form-control" />
+                    <label class="form-label" for="form4Example1">Nombre</label>
                 </div>
-    
-                <div>
-                    <label for="apellido">Apellido*:</label>
-                    <input required name="apellido" id="apellido" type="text" placeholder="Ej: Vidal">
+                <div class="form-outline mb-4">
+                    <input type="email" id="form4Example2" class="form-control" />
+                    <label class="form-label" for="form4Example2">Direccion de correo</label>
                 </div>
-    
-                <div>
-                    <label for="edad">Edad</label>
-                    <input name="edad" id="edad" type="number">
+                <div class="form-outline mb-4">
+                    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                    <label class="form-label" for="form4Example3">Mensaje</label>
                 </div>
-    
-                <div>
-                    <label for="email">Correo*</label>
-                    <input required name="email" id="email" type="email">
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="form4Example4"
+                    checked
+                    />
+                    <label class="form-check-label" for="form4Example4">
+                    Enviarme una copia a mi correo
+                    </label>
                 </div>
-    
-                <div>
-                    <select>
-                        <option value="uno">Consulta</option>
-                        <option value="uno">Pedido</option>
-                    </select>
-                </div>
-    
-                <div>
-                    <label for="consulta">Dejanos tu consulta*</label>
-                    <textarea required name="consulta" id="consulta" cols="50" rows="10" maxlength="200" ></textarea>
-                </div>
-    
-                <h6>*Campo Obligatorio</h6>
-    
-                <div>¿Queres recibir nuestas promociones?</div>
-                <input type="checkbox" name="acepta" value="1" >
-    
-                <div>
-                    <input type="reset" value="Borrar">
-                    <input type="submit" value=" Enviar Consulta">
-                </div>
+                <button type="submit" class=" boton__enviar btn btn-primary btn-block mb-4">Enviar</button>
             </form>
-    </section>
+        </div>
+    </div>
     
     <div class="btn__whatsapp container-fluid">
         <a href="https://api.whatsapp.com/send?phone=+541164858197" target="_blank">
@@ -119,10 +95,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <ul class="col-xl-6 col-md-12 col-xs-12">
-                    <h2 class="pieDePagina">Seguinos en</h2>
-                    <a class="redesSociales" href="https://www.instagram.com/indumentaria_california/?hl=es"><i class="bi bi-instagram"></i>Instagram</a>
-                    <h2 class="pieDePagina">Sumate a nuestras revendedoras</h2>
+                <ul class=" pie__pagina col-xl-12 col-md-12 col-xs-12">
+                    <h2>Seguinos en</h2>
+                    <a href="https://www.instagram.com/indumentaria_california/?hl=es" target="_blank" ><i class="bi bi-instagram"></i></a>
+                    <h2>Sumate a nuestras revendedoras</h2>
                 </ul>
             </div>
         </div>

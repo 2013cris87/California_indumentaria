@@ -54,40 +54,31 @@ body footer {
   margin: 2rem 2rem;
 }
 
-body footer div div ul .redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+body footer div div .pie__pagina {
+  text-align: right;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: "Amatic SC", cursive;
   color: black;
   text-decoration: none;
   font-weight: bold;
+  padding-right: 4rem;
 }
 
-body footer div div ul .pieDePagina {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 4rem;
+body footer div div .pie__pagina h2 {
+  font-size: 5rem;
+}
+
+body footer div div .pie__pagina a {
+  text-decoration: none;
   color: black;
-  font-family: "Amatic SC", cursive;
+  font-weight: normal;
 }
 
-body footer div div section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  padding: 2rem 2rem;
+body footer div div .pie__pagina a :hover {
+  color: red;
 }
 
 /* variable fuente */
@@ -219,68 +210,23 @@ body .tabla__talle div .table tbody tr td {
 }
 
 /* variable fuente */
-.contacto {
-  color: black;
-  font-weight: bold;
-  font-size: 6rem;
-  text-align: center;
-  font-family: "Amatic SC", cursive;
-}
-
-.formulario {
-  margin: 15rem;
-  background-image: -webkit-gradient(linear, right top, left top, from(white), to(#94efff));
-  background-image: linear-gradient(to left, white, #94efff);
-  color: black;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-  font-family: "Amatic SC", cursive;
+body .formulario .formulario__1 {
+  margin-top: 2rem;
 }
 
 /* variable fuente */
-.nuestrasTiendas {
-  margin: 2rem;
+body .punto__entrega h1 {
   color: black;
-  font-style: italic;
-  font-weight: bold;
+  font-family: "Amatic SC", cursive;
   font-size: 6rem;
   text-align: center;
-  font-family: "Amatic SC", cursive;
 }
 
-.tiendas {
-  margin: 2rem;
+body .retiro .mapa__retiro div h2 {
   color: black;
+  font-family: "Amatic SC", cursive;
   font-size: 4rem;
-  text-align: left;
-  line-height: 1;
-  word-spacing: 1.2rem;
-  font-family: "Amatic SC", cursive;
-}
-
-.tiendas .tituloTienda {
-  color: black;
-  font-size: 5rem;
-  line-height: 1;
-  text-decoration: underline;
-  font-weight: bold;
-  font-family: "Amatic SC", cursive;
-  list-style: none;
-}
-
-.tiendas .tiendaMapa {
-  color: red;
-  list-style-type: none;
-  list-style-position: inside;
-  list-style-image: url(../multimedia/map.png);
-}
-
-.tiendas .tiendaTelefono {
-  color: red;
-  list-style-type: none;
-  list-style-position: inside;
-  list-style-image: url(../multimedia/telefono.png);
+  text-align: center;
 }
 
 /* variable fuente */
