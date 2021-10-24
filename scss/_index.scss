@@ -1,35 +1,49 @@
 $letraweb: 'Amatic SC', cursive;   /* variable fuente */
 
-body .web {
-    .web__contenido {
-        .web__contenido__carousel {
-            display: flex;
-            align-items: center;
-            padding: 3rem 3rem;
-            background-color: transparent;
-        }
-        .web__contenido__texto {
-            .web__contenido__texto__box {
-                .web__contenido__texto__box__titulo {
-                    display: flex;
-                    justify-content: center;
-                    font-size: 7rem;
-                    font-size: bold;
-                    color: black;
-                    font-family: $letraweb;
-                }
-                .web__contenido__texto__box__parrafo {
-                    display: flex;
-                    justify-content: center;
-                    text-align: center;
-                    font-size: 4rem;
-                    font-family: $letraweb;
+body {
+    .web {
+        .web__contenido {
+            .web__contenido__carousel {
+                display: flex;
+                align-items: center;
+                padding: 3rem 3rem;
+                background-color: transparent;
+            }
+            .web__contenido__texto {
+                .web__contenido__texto__box {
+                    .web__contenido__texto__box__titulo {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 7rem;
+                        font-size: bold;
+                        color: black;
+                        font-family: $letraweb;
+                    }
+                    .web__contenido__texto__box__parrafo {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        font-size: 4rem;
+                        font-family: $letraweb;
+                    }
                 }
             }
         }
     }
+    .btn__whatsapp {
+        display:block;
+        width:70px;
+        height:70px;
+        color: black;
+        position: fixed;
+        right: 20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+    }
 }
-
 
 .texto__pie {
     .texto__pie__div {

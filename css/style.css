@@ -113,6 +113,20 @@ body .web .web__contenido .web__contenido__texto .web__contenido__texto__box .we
   font-family: "Amatic SC", cursive;
 }
 
+body .btn__whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: black;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
 .texto__pie .texto__pie__div .texto__pie__div__section .texto__pie__div__section__h2 p {
   display: -webkit-box;
   display: -ms-flexbox;
