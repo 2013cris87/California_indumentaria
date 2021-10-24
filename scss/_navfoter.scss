@@ -32,6 +32,19 @@ body {
             }
         }
     } 
+    .btn__whatsapp {
+        display: block;
+        width: 65px;
+        height: 65px;
+        color: black;
+        position: fixed;
+        right: 20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+    }
     footer {
         display: flex;
         background-image: url("https://previews.123rf.com/images/rafaart/rafaart1802/rafaart180200361/96670409-perchas-para-la-ropa-en-el-fondo-r%C3%BAstico-concepto-de-moda.jpg");
