@@ -113,6 +113,7 @@ body .web .web__contenido .web__contenido__texto .web__contenido__texto__box .we
   font-size: bold;
   color: black;
   font-family: "Amatic SC", cursive;
+  text-align: center;
 }
 
 body .web .web__contenido .web__contenido__texto .web__contenido__texto__box .web__contenido__texto__box__parrafo {
@@ -125,20 +126,6 @@ body .web .web__contenido .web__contenido__texto .web__contenido__texto__box .we
   text-align: center;
   font-size: 4rem;
   font-family: "Amatic SC", cursive;
-}
-
-body .btn__whatsapp {
-  display: block;
-  width: 65px;
-  height: 65px;
-  color: black;
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  border-radius: 50%;
-  line-height: 80px;
-  text-align: center;
-  z-index: 999;
 }
 
 .texto__pie .texto__pie__div .texto__pie__div__section .texto__pie__div__section__h2 p {
@@ -180,9 +167,6 @@ body .carousel__jean div .carousel__foto__jean h2 {
 }
 
 div div .tablaTalle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
